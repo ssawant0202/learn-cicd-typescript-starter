@@ -23,4 +23,4 @@ _This starts the server in non-database mode._ It will serve a simple webpage at
 
 You do _not_ need to set up a database or any interactivity on the webpage yet. Instructions for that will come later in the course!
 
-Sidd's Version of CICD app 2.0
+Sidd's version of Boot.dev's Notely app.
