@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm ci && npm run test -- --coverage
   
-  style: 
+  Style: 
     name: Format Check
     runs-on: ubuntu-latest
 
@@ -35,6 +35,6 @@ jobs:
           node-version: 22
       - name: Insall dependencies
         run: npm ci
-        
+
       - name: Format Check
         run: npm run format:check
