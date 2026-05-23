@@ -9,17 +9,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      name: Check out code
-      uses: actions/checkout@v4
+      - name: Check out code
+        uses: actions/checkout@v4
 
-      name: Set up node
-      uses: actions/setup-node@v4
-      with: 
-        node-version: 22
+      - name: Set up node
+        uses: actions/setup-node@v4
+        with: 
+          node-version: 22
 
-      name: Install dependencies
-      runs: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-      name: Build app
-      runs: npm run build
+      - name: Build app
+        run: npm run build
 
